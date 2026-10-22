@@ -1,0 +1,27 @@
+---
+title: Writing Docs
+description: Conventions for pages, frontmatter, and navigation.
+---
+
+# Writing docs
+
+## Frontmatter
+
+Every page can declare a `title` and `description`:
+
+```yaml
+---
+title: Page Title
+description: Shows up in search results and link previews.
+---
+```
+
+## Navigation
+
+Pages appear in the sidebar via the `navigation` array in `docs.json`.
+Reference pages by their file path without the extension — `guides/writing-docs`
+for this page.
+
+## Images
+
+Put images anywhere in the repo and reference them with relative paths.
